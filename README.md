@@ -10,8 +10,8 @@ https://alejandria.poligran.edu.co/bitstream/handle/10823/3103/LibMetNumElectron
    1. -[x] Metodo de Gauss
    2. -[] Factorización LU y PLU
    3. -[x] Inversa de una matriz
-   4. -[] Determinantes
-   5. -[] Gauss Seidel
+   4. -[x] Determinantes
+   5. -[x] Gauss Seidel
    6. -[]Metodo de potencias directa/inversa
 2. **Ecuacioens no lineales**
    1. -[x] Método de bisección
