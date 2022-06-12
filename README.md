@@ -21,7 +21,7 @@ https://alejandria.poligran.edu.co/bitstream/handle/10823/3103/LibMetNumElectron
       2. -[] Varias variables
 3. **Interpolación**
    1. -[x] Metodo de Lagrange
-   2. -[] Método de Newton
+   2. -[x] Método de Newton
    3. -[] Ajuste de un polinomio por minimos cuadrados
    4. -[] Interpoladores cúbicos
 4. **Calculo numérico**
