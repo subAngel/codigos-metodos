@@ -1,14 +1,18 @@
-# Metodo de Gauss
-# con ayuda de https://www.youtube.com/watch?v=qv9XxtNZg-U
 
-# Sistema de ecuaciones
-# 5x1 − x2 + 3x3 = 1
-# −x1 − 7x2 + x4 = −9
-# 2x2 + 8x3 − 2x4 = −4
-# 4x1 + x3 − 6x4 =
+
+# Método de Gauss-Jordan
+# Solución a Sistemas de Ecuaciones
+# de la forma A.X=B
+
 import numpy as np
 
 # INGRESO
+
+
+# 4x1 + 2x2 + 5x3 = 60.70
+# 2x1 + 5x2 + 8x3 = 92.90
+# 5x1 + 4x2 + 3x3 = 56.30
+
 A = np.array([[4, 2, 5],
               [2, 5, 8],
               [5, 4, 3]])
@@ -44,28 +48,30 @@ for i in range(0, n - 1, 1):
         temporal = np.copy(AB[i, :])
         AB[i, :] = AB[dondemax + i, :]
         AB[dondemax + i, :] = temporal
+
 AB1 = np.copy(AB)
 
-# eliminación hacia adelante
+# eliminacion hacia adelante
 for i in range(0, n - 1, 1):
     pivote = AB[i, i]
     adelante = i + 1
     for k in range(adelante, n, 1):
         factor = AB[k, i] / pivote
         AB[k, :] = AB[k, :] - AB[i, :] * factor
+AB2 = np.copy(AB)
 
-# sustitución hacia atrás
+# elimina hacia atras
 ultfila = n - 1
 ultcolumna = m - 1
-X = np.zeros(n, dtype=float)
-
 for i in range(ultfila, 0 - 1, -1):
-    suma = 0
-    for j in range(i + 1, ultcolumna, 1):
-        suma = suma + AB[i, j] * X[j]
-    b = AB[i, ultcolumna]
-    X[i] = (b - suma) / AB[i, i]
-
+    pivote = AB[i, i]
+    atras = i - 1
+    for k in range(atras, 0 - 1, -1):
+        factor = AB[k, i] / pivote
+        AB[k, :] = AB[k, :] - AB[i, :] * factor
+    # diagonal a unos
+    AB[i, :] = AB[i, :] / AB[i, i]
+X = np.copy(AB[:, ultcolumna])
 X = np.transpose([X])
 
 # SALIDA
@@ -73,7 +79,9 @@ print('Matriz aumentada:')
 print(AB0)
 print('Pivoteo parcial por filas')
 print(AB1)
-print('eliminación hacia adelante')
+print('eliminacion hacia adelante')
+print(AB2)
+print('eliminación hacia atrás')
 print(AB)
-print('solución: ')
+print('solución de X: ')
 print(X)

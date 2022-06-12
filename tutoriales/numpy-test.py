@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.linalg import solve, inv
 
-a = np.array([[-1,1,2.5],[1.3, 4.2]])    # Matriz forma (2,2)
+a = np.array([[-1.1,2.5],[1.3, 4.2]])    # Matriz forma (2,2)
 print(a)
 print(a.T)      # transpuesta
 print(inv(a))   # inversa
