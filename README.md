@@ -15,7 +15,7 @@ https://alejandria.poligran.edu.co/bitstream/handle/10823/3103/LibMetNumElectron
    6. -[]Metodo de potencias directa/inversa
 2. **Ecuacioens no lineales**
    1. -[x] Método de bisección
-   2. -[] Método de falsa posición
+   2. -[x] Método de falsa posición
    3. -[] Método de Newton/Raphson
       1. -[] Una variable
       2. -[] Varias variables
