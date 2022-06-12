@@ -9,7 +9,7 @@ https://alejandria.poligran.edu.co/bitstream/handle/10823/3103/LibMetNumElectron
 1. **Sistemas de ecuaciones lineales**
    1. -[x] Metodo de Gauss
    2. -[] Factorización LU y PLU
-   3. -[] Inversa de una matriz
+   3. -[x] Inversa de una matriz
    4. -[] Determinantes
    5. -[] Gauss Seidel
    6. -[]Metodo de potencias directa/inversa
