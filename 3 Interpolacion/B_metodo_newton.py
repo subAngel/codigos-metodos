@@ -16,7 +16,7 @@ n = len(xi)
 ki = np.arange(0,n,1)
 tabla = np.concatenate(([ki],[xi],[fi]),axis=0)
 tabla = np.transpose(tabla)
-
+a
 # diferencias divididas vacias
 dfinita = np.zeros(shape=(n,n), dtype=float)
 tabla = np.concatenate((tabla,dfinita), axis=1)

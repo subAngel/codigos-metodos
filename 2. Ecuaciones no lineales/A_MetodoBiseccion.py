@@ -1,3 +1,4 @@
+# Método de bisección
 from math import *
 
 

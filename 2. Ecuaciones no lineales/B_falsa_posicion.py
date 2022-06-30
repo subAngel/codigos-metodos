@@ -48,8 +48,8 @@ def regula(f, p0, p1, tol, n):
 print("Falsa posicion: pol(x) = x^3 + 4x^2 − 10")
 regula(pol, 1, 2, 1e-8, 100)
 
-print("Falsa posicin: trig(x) =  xcos(x-1) - sin(x)")
+print("\nFalsa posicin: trig(x) =  xcos(x-1) - sin(x)")
 regula(trig, 4, 6, 1e-8, 100)
 # potencia
-print("Falsa posicion: pote(x) = 7^x - 13")
+print("\nFalsa posicion: pote(x) = 7^x - 13")
 regula(pote, 0, 2, 1e-8, 100)
