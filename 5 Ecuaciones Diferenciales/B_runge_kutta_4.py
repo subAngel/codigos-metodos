@@ -31,3 +31,8 @@ def SistRK4(f, g, x0, y0, a, b, h):
         print(x[i], '\t', y[i])
         plt.plot(t, x, t, y, 'o')
         plt.show()
+
+
+f = lambda x, y, t: -0.1 * x
+g = lambda x, y, t: -0.1 * x - 0.2 * y
+SistRK4(f, g, 5000, 0, 0, 20, 0.5)

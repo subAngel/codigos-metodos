@@ -1,13 +1,15 @@
-# Metodos numéricos programados en python
+# Métodos numéricos programados en python
 
-# Integrantes del Equipo
--Alberto Ramírez Bautista 
--Dafne Santiago Solano 
--Jesús Edgardo López Ramírez
--Carlos Eduardo Rendón Torres 
--Ángel Jesús Zorrilla Cuevas
--Eric Moisés León Cruz 
+## Grupo 4SC - Métodos númericos
+## Integrantes del Equipo
+- Alberto Ramírez Bautista
+- Dafne Santiago Solano 
+- Jesús Edgardo López Ramírez
+- Carlos Eduardo Rendón Torres 
+- Ángel Jesús Zorrilla Cuevas
+- Eric Moisés León Cruz 
 
+###[Documentación](/Documentacion.pdf)
 
 ## Lista de codigos
 1. **Sistemas de ecuaciones lineales**
@@ -37,13 +39,12 @@
       1. -[x] Euler izquierdo.
       2. -[x] Euler centrado
       3. -[x] Euler derecho
-      4. -[] Metodos de Runge/Kutta 3o orden
-      5. -[] Métodos de Runge/Kutaa 4o orden
+      4. -[x] Metodos de Runge/Kutta 3o orden
+      5. -[x] Métodos de Runge/Kutaa 4o orden
    2. Metodos para resolver un sistema de ecuaciones, problema de condiciones iniciales
       1. Euler izquierdo.
       2. Euler centrado
       3. Euler derecho
       4. Metodos de Runge/Kutta 3o orden
       5. Métodos de Runge/Kutaa 4o orden
-   3. Aplicaciones al problema de condiciones en la frontera
-      1. Ejemplos (2)
+   
